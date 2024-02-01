@@ -1,1 +1,0 @@
-The goal of this project was to use CAN to spoof a Hyundai ECU and display values on an instrument cluster using the microcontroller. More detail can be seen in the report (.PDF file).
