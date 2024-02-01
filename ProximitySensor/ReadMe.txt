@@ -1,0 +1,1 @@
+This project utilizes an ultrasonic proximity sensor to determine the distance between the microcontroller and an object. It also uses I2C to send the distance to a peripheral LCD display. Further results are shown in the report (.PDF file).

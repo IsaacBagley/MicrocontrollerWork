@@ -1,0 +1,1 @@
+This project used an LCD screen and a temperature sensor. The microcontroller reads the temperature from the sensor, and outputs it either in Celsius or Fahrenheit based on the position of a switch. More detail can be found in the report (.PDF file).

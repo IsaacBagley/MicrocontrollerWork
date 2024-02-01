@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Pull Resistor">
+      <a name="facing" val="east"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="file#S:\School_Work\Fall_2022\Digital Design\ECE-4510-5530.circ" name="7"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(730,930)" to="(730,940)"/>
+    <wire from="(260,650)" to="(260,720)"/>
+    <wire from="(810,930)" to="(860,930)"/>
+    <wire from="(60,1030)" to="(570,1030)"/>
+    <wire from="(420,780)" to="(610,780)"/>
+    <wire from="(810,530)" to="(810,540)"/>
+    <wire from="(140,650)" to="(140,980)"/>
+    <wire from="(180,960)" to="(490,960)"/>
+    <wire from="(220,760)" to="(340,760)"/>
+    <wire from="(690,840)" to="(690,930)"/>
+    <wire from="(730,940)" to="(770,940)"/>
+    <wire from="(510,950)" to="(510,980)"/>
+    <wire from="(170,260)" to="(210,260)"/>
+    <wire from="(260,420)" to="(260,450)"/>
+    <wire from="(680,830)" to="(680,910)"/>
+    <wire from="(100,650)" to="(100,1000)"/>
+    <wire from="(530,500)" to="(810,500)"/>
+    <wire from="(480,890)" to="(570,890)"/>
+    <wire from="(860,930)" to="(860,1040)"/>
+    <wire from="(650,910)" to="(680,910)"/>
+    <wire from="(680,1020)" to="(710,1020)"/>
+    <wire from="(220,650)" to="(220,760)"/>
+    <wire from="(420,900)" to="(430,900)"/>
+    <wire from="(610,530)" to="(810,530)"/>
+    <wire from="(500,930)" to="(570,930)"/>
+    <wire from="(120,990)" to="(520,990)"/>
+    <wire from="(260,720)" to="(340,720)"/>
+    <wire from="(840,910)" to="(840,1030)"/>
+    <wire from="(490,910)" to="(570,910)"/>
+    <wire from="(530,500)" to="(530,740)"/>
+    <wire from="(60,650)" to="(60,1030)"/>
+    <wire from="(260,340)" to="(320,340)"/>
+    <wire from="(680,1010)" to="(680,1020)"/>
+    <wire from="(730,900)" to="(730,910)"/>
+    <wire from="(700,1030)" to="(700,1040)"/>
+    <wire from="(520,970)" to="(570,970)"/>
+    <wire from="(810,500)" to="(810,510)"/>
+    <wire from="(810,860)" to="(810,870)"/>
+    <wire from="(410,380)" to="(460,380)"/>
+    <wire from="(510,950)" to="(570,950)"/>
+    <wire from="(280,650)" to="(280,660)"/>
+    <wire from="(650,970)" to="(710,970)"/>
+    <wire from="(320,650)" to="(320,660)"/>
+    <wire from="(530,1070)" to="(570,1070)"/>
+    <wire from="(530,990)" to="(570,990)"/>
+    <wire from="(700,860)" to="(700,950)"/>
+    <wire from="(260,340)" to="(260,420)"/>
+    <wire from="(420,740)" to="(530,740)"/>
+    <wire from="(700,860)" to="(810,860)"/>
+    <wire from="(50,170)" to="(50,260)"/>
+    <wire from="(520,970)" to="(520,990)"/>
+    <wire from="(490,310)" to="(530,310)"/>
+    <wire from="(200,650)" to="(200,940)"/>
+    <wire from="(720,880)" to="(720,990)"/>
+    <wire from="(650,890)" to="(670,890)"/>
+    <wire from="(710,870)" to="(730,870)"/>
+    <wire from="(200,940)" to="(480,940)"/>
+    <wire from="(160,970)" to="(500,970)"/>
+    <wire from="(710,870)" to="(710,970)"/>
+    <wire from="(570,510)" to="(570,760)"/>
+    <wire from="(680,830)" to="(810,830)"/>
+    <wire from="(480,890)" to="(480,940)"/>
+    <wire from="(560,1050)" to="(570,1050)"/>
+    <wire from="(730,990)" to="(730,1000)"/>
+    <wire from="(160,650)" to="(160,970)"/>
+    <wire from="(530,990)" to="(530,1000)"/>
+    <wire from="(650,1050)" to="(770,1050)"/>
+    <wire from="(650,950)" to="(700,950)"/>
+    <wire from="(650,1030)" to="(700,1030)"/>
+    <wire from="(530,310)" to="(580,310)"/>
+    <wire from="(810,830)" to="(810,840)"/>
+    <wire from="(100,1000)" to="(530,1000)"/>
+    <wire from="(690,1000)" to="(730,1000)"/>
+    <wire from="(690,840)" to="(730,840)"/>
+    <wire from="(120,650)" to="(120,990)"/>
+    <wire from="(80,1010)" to="(570,1010)"/>
+    <wire from="(410,350)" to="(410,380)"/>
+    <wire from="(240,740)" to="(340,740)"/>
+    <wire from="(240,650)" to="(240,740)"/>
+    <wire from="(580,240)" to="(730,240)"/>
+    <wire from="(770,940)" to="(770,1050)"/>
+    <wire from="(650,1010)" to="(680,1010)"/>
+    <wire from="(80,650)" to="(80,1010)"/>
+    <wire from="(420,760)" to="(570,760)"/>
+    <wire from="(410,230)" to="(410,270)"/>
+    <wire from="(490,910)" to="(490,960)"/>
+    <wire from="(710,1030)" to="(840,1030)"/>
+    <wire from="(260,420)" to="(530,420)"/>
+    <wire from="(650,1070)" to="(660,1070)"/>
+    <wire from="(710,1020)" to="(710,1030)"/>
+    <wire from="(140,980)" to="(510,980)"/>
+    <wire from="(580,240)" to="(580,310)"/>
+    <wire from="(300,650)" to="(300,660)"/>
+    <wire from="(650,930)" to="(690,930)"/>
+    <wire from="(150,280)" to="(320,280)"/>
+    <wire from="(150,260)" to="(150,280)"/>
+    <wire from="(810,880)" to="(810,900)"/>
+    <wire from="(730,910)" to="(840,910)"/>
+    <wire from="(300,900)" to="(340,900)"/>
+    <wire from="(500,930)" to="(500,970)"/>
+    <wire from="(530,310)" to="(530,420)"/>
+    <wire from="(280,660)" to="(300,660)"/>
+    <wire from="(570,510)" to="(730,510)"/>
+    <wire from="(420,720)" to="(440,720)"/>
+    <wire from="(700,1040)" to="(860,1040)"/>
+    <wire from="(720,880)" to="(810,880)"/>
+    <wire from="(50,260)" to="(130,260)"/>
+    <wire from="(650,990)" to="(720,990)"/>
+    <wire from="(330,880)" to="(340,880)"/>
+    <wire from="(610,530)" to="(610,780)"/>
+    <wire from="(180,650)" to="(180,960)"/>
+    <comp lib="0" loc="(430,900)" name="Ground"/>
+    <comp lib="7" loc="(570,1070)" name="SN74HC541N">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(660,1070)" name="Ground"/>
+    <comp lib="0" loc="(560,1050)" name="Ground"/>
+    <comp lib="7" loc="(110,90)" name="LM35 Analog Temp Sensor"/>
+    <comp lib="6" loc="(283,678)" name="Text">
+      <a name="text" val="5V"/>
+    </comp>
+    <comp lib="0" loc="(530,1070)" name="Power"/>
+    <comp lib="0" loc="(300,660)" name="Power">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(72,165)" name="Text">
+      <a name="text" val="3.3V"/>
+    </comp>
+    <comp lib="0" loc="(330,880)" name="Ground"/>
+    <comp lib="0" loc="(670,890)" name="Ground"/>
+    <comp lib="0" loc="(50,170)" name="Power"/>
+    <comp lib="6" loc="(299,881)" name="Text">
+      <a name="text" val="3.3V"/>
+    </comp>
+    <comp lib="6" loc="(436,226)" name="Text">
+      <a name="text" val="3.3V"/>
+    </comp>
+    <comp lib="7" loc="(340,900)" name="SN74HC541N">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(210,260)" name="Ground"/>
+    <comp lib="7" loc="(320,220)" name="OpAmp 741"/>
+    <comp lib="7" loc="(40,500)" name="LCD_2x16"/>
+    <comp lib="6" loc="(483,376)" name="Text">
+      <a name="text" val="-3.3V"/>
+    </comp>
+    <comp lib="0" loc="(690,1000)" name="Ground"/>
+    <comp lib="0" loc="(260,450)" name="Ground"/>
+    <comp lib="0" loc="(460,380)" name="Power"/>
+    <comp lib="6" loc="(529,1051)" name="Text">
+      <a name="text" val="3.3V"/>
+    </comp>
+    <comp lib="6" loc="(407,436)" name="Text">
+      <a name="text" val="10k Resistor"/>
+    </comp>
+    <comp lib="6" loc="(272,443)" name="Text">
+      <a name="text" val="330 Ohm Resistor"/>
+    </comp>
+    <comp lib="0" loc="(440,720)" name="Ground"/>
+    <comp lib="0" loc="(320,660)" name="Ground"/>
+    <comp lib="7" loc="(810,60)" name="Discovery P2 Connector"/>
+    <comp lib="0" loc="(410,230)" name="Power"/>
+    <comp lib="0" loc="(300,900)" name="Power"/>
+  </circuit>
+</project>

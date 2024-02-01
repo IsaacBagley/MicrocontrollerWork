@@ -1,0 +1,1 @@
+This project is a PWM monitor using input capture and output compare. It reads the input signal using input capture and uses output compare to determine the high and low times of the input signal. This information is then printed to the console.

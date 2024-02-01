@@ -1,0 +1,1 @@
+This project is a counter which counts up 4 every time the input signal has an edge and displays the result on the output pins.
