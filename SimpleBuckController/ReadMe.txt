@@ -1,0 +1,1 @@
+Uses PWM to control a buck controller to around 12V through a HIL real-time simulator. First attempt at controller in the loop work.
