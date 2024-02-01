@@ -1,0 +1,1 @@
+This project emulates a controller for a pumped storage facility. It will shut off the pump if the liquid being stored reaches a certain point, a certain weight, or if an emergency stop is used.

@@ -1,0 +1,2 @@
+This project is a digital frequency discriminator. 
+It takes an input waveform and lights up an LED if it is between 7kHz and 35kHz; it lights a different LED if the input frequency is between 35kHz and 55kHz; it lights both LEDs if the input is higher than 75kHz and no LEDs if it is below 5kHz.

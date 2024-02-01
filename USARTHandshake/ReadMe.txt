@@ -1,0 +1,1 @@
+This program is a simple handshake transmission controller using the USART communication protocol.

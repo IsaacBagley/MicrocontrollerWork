@@ -1,0 +1,1 @@
+This project takes 2 signed 8-bit numbers as inputs, adds them, and outputs the answer.
