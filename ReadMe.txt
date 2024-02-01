@@ -1,1 +1,0 @@
-This project uses the time between two teeth on a flywheel to estimate the gas torque output of an engine in real time. The code is mostly on the CM7 core as it is faster, and memory management while using multiple cores is hard for real time applicaitons.
