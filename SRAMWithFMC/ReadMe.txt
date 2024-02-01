@@ -1,1 +1,0 @@
-This project utilizes external memory with the microcontroller by interfacing with the flexible memory controller (FMC). The function is fairly rudimentary and explained further in the report (.PDF file).
