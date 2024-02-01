@@ -1,1 +1,0 @@
-This project used the microcontroller to create a controller for a conveyor belt based on sensor readings and timers as inputs. More information about the project can be found in the report (.PDF file).
