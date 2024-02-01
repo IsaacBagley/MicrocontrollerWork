@@ -1,0 +1,1 @@
+This project was to initialize a peripheral LCD display using SPI and print the names of the group members.
